@@ -7,5 +7,6 @@ metadata: # kpt-merge: /scale-profile
     automation.nephio.org/config-injection: "true"
     internal.kpt.dev/upstream-identifier: 'infra.nephio.org|ClusterScaleProfile|default|scale-profile'
 spec:
-  autoscaling: false
-  siteDensity: low
+  autoscaling: true
+  nodeMax: 2400
+  siteDensity: high
